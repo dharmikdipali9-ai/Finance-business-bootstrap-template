@@ -1,0 +1,572 @@
+@import "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+img,video{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.desktop-navbar{
+    display: none;
+    
+}
+
+.nav-menu{
+    display: none;
+}
+
+.heading a{
+  font-size: 24px;  
+}
+
+.bar-menu{
+    padding: 5px 15px;
+    background-color: #ffffff;
+}
+
+.bar-menu i{
+    font-size: 20px;
+    color: #A4C639;
+}
+
+
+.Request-section{
+    background-color: #A4C639;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.Request-section h4{
+    font-size: 22px;
+}
+
+.Request-section span{
+    font-size: 15px;
+}
+
+.btn1{
+    display: inline-block;
+    padding: 7px 30px;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-top: 35px;
+}
+
+.btn1 a{
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.heading-finance{
+    font-size: 36px;
+    color: #1e1e1e;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+.heading-finance span{
+    font-size: 36px;
+    color: #A4C639;
+}    
+    
+
+.para{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #666666;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 80px;
+}
+
+.finance-section{
+    padding: 130px 0px;
+}
+
+.figcaption{
+    background-color: #F7F7F7;
+    padding: 30px;
+}
+
+.figcaption h4{
+    font-size: 20px;
+    color: #212529;
+    font-weight: 700;
+}
+
+.figcaption p{
+    font-size: 14px;
+    color: #666666;
+    line-height: 30px;
+}
+
+.btn2,.btn3,.btn4,.btn5{
+    background-color:#A4C639;
+    display: inline-block;
+    padding: 10px 30px;
+    border: 2px solid white;
+    border-radius: 20px;
+}   
+
+.btn2 a,.btn3 a,.btn4 a,.btn5 a{
+    font-size: 13px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.btn2 a:hover{
+    color: #A4C639;
+}    
+
+.btn2:hover{
+    background-color:#ffffff;
+}
+
+.solution-section{
+    background-image:url(../images/background/107.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    padding: 120px 0;
+}
+
+.para-1{
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.heading3{
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.heading3 span{
+    font-size: 36px;
+    color: #A4C639;
+}
+
+.para-2{
+    font-size: 14px;
+    line-height: 30px;
+    
+}
+
+.para-3{
+    font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.btn3{
+    border: 2px solid #A4C639;
+    margin-bottom: 50px;
+}
+
+.count-div{
+    background-color: #383838;
+    padding: 25px 0px;
+    margin-bottom: 30px;
+}
+
+.count{
+    font-size: 36px;
+    color: #A4C639;
+    font-weight: 700;
+}
+
+.para-work{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.company-section{
+    padding: 130px 0px;
+    color: #666666;
+}
+
+.who-para{
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.who-head,.who-say{
+    font-size: 36px;
+    color: #212529;
+    font-weight: 600;
+    
+}
+
+.who-head{
+    margin-bottom: 30px;
+}
+
+.who-head span,.who-say span{
+    font-size: 36px;
+    color: #A4C639;
+}
+
+.para-4,.para-5{
+    font-size: 14px;
+    color: #666666;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.who-div{
+    padding: 30px;
+    background-color: #F7F7F7;
+}
+
+.form-div{
+    background-color: #A4C639;
+    margin-top: 70px;
+    border-radius: 5px;
+    padding: 50px;
+
+}
+
+.Request-heading,.Request-heading span{
+    font-size: 36px;
+    color: #1e1e1e;
+    font-weight: 600;
+}
+
+.Request-heading span{
+    color: #A4C639;
+}
+
+.Request-para{
+    font-size: 15px;
+    color: #666666;
+    letter-spacing: 1.5px;
+}
+
+input{
+    width: 180px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 30px;
+    height: 40px;
+}
+
+::placeholder{
+    font-size: 13px;
+    color:#6a6a6a;
+    padding-left: 15px;
+}
+
+#Message,#Message1{
+    font-size: 13px;
+    color: #6a6a6a;
+    height: 130px;
+    width: 180px;
+    border-radius: 20px;
+    border: none;
+}
+
+.btn5{
+    margin-top: 40px;
+}
+
+.logo-section{
+    margin-top: 140px;
+    background-color: #F7F7F7;
+    padding: 50px 70px 70px;
+}
+
+.img-2,.img-3,.img-4{
+    display: none;
+}
+
+.footer-part1{
+    background-color: #232323;
+    padding: 70px 0px;
+}
+
+.para-viva{
+    font-size: 14px;
+    line-height: 2;
+    margin-bottom: 20px;
+}
+
+.icon{
+    padding: 5px 9px;
+    background-color: white;
+    border-radius: 100%;
+
+}
+
+.icon i{
+    color: black;
+}
+
+.Pages-div li a,.Useful-div li a{
+    font-size: 14px;
+}
+
+.footer-input input{
+    width: 290px;
+    background-color: #343434;
+    margin-bottom: 15px;
+}
+
+#Message1{
+    width: 290px;
+    background-color: #343434;
+    
+}
+
+.btn6{
+    margin-top: 10px;
+    border: none;
+    text-align: center;
+}
+
+.footer-end{
+    background-color: #343434;
+    padding: 20px;
+}
+
+.footer-end p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 2;
+}
+
+
+.para-6{
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #666;
+
+}
+
+
+.testimonial-section{
+    background-color: #F7F7F7;
+    padding-top:100px;
+    padding-bottom: 150px;
+    margin-bottom: 150px;
+
+}
+
+.George-div{
+    background-color: white;
+    padding: 30px 30px 40px;
+}
+
+.George-div h4{
+    font-size: 19px;
+    color: #1e1e1e;
+
+}
+
+.George-div span{
+    font-size: 14px;
+    color: #A4C639;
+}
+
+.George-div p{
+    font-size: 14px;
+    color: #666666;
+    line-height: 2;
+}
+
+.bg1{
+    background-image:url(../images/background/101.jpg);
+    width: 100%;
+    height: 95vh;
+    background-size: cover;
+    background-position: center;
+ }
+ .bg2{
+    background:url(../images/background/102.jpg);
+    width: 100%;
+    height: 95vh;
+    background-size: cover;
+    background-position: center;
+ }
+ .bg3{
+    background:url(../images/background/103.jpg);
+    width: 100%;
+    height: 95vh;
+    background-size: cover;
+    background-position: center;
+ }
+
+.bg1 h6,.bg2 h6,.bg3 h6{
+    color: #A4C639;
+    font-size: 18px;
+    letter-spacing: 1px;
+} 
+
+.bg1 h4,.bg2 h4,.bg3 h4{
+    font-size: 28px;
+    letter-spacing: 1px;
+    line-height: 36px;
+}
+
+.bg1 p,.bg2 p,.bg3 p{
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.btn-c{
+    background-color: #A4C639;
+    height: 45px;
+    width: 160px;   
+}
+
+.btn-c a{
+    font-size: 13px;
+    
+}
+
+.carousel-caption{
+    text-align: left;
+}
+
+.desktop-navigation{
+    background-color: black;
+    position: relative;
+    top: 0%;
+    
+} 
+
+.slider{
+    position: absolute;
+    
+}
+
+@media(min-width:768px){
+
+.nav-menu{
+    display: none;
+}    
+
+.subdiv{
+    margin-top: 60px;
+}
+
+.count-div{
+    padding: 30px 50px;
+}
+
+input{
+    width: 100%;
+}
+
+#Message{
+    width: 100%;
+}
+
+.img-2{
+    display: block;
+    margin-left: 40%;
+}
+
+.footer-input input{
+    width: 150px;
+
+}
+
+#Message1{
+    width: 150px;
+}
+
+}
+
+@media(min-width:992px){
+
+.desktop-navbar{
+    background-color: #A4C639;
+}    
+
+.nav li a{
+    color: #ffffff;
+    font-size: 14px;
+    
+}
+
+.nav li{
+    padding: 10px 20px;
+    font-weight: 600;
+    border: 1px solid rgba(250, 250, 250, 0.3);
+}
+
+.nav-item{
+    padding-left: 25px;
+}
+
+.btn4{
+    margin-bottom: 40px;
+}
+
+input{
+    width: 30%;
+    margin-right: 30px;
+}
+
+#Message{
+    width: 100%;
+}
+
+.img-3,.img-4{
+    display: block;
+}
+
+.img-2,.img-3,.img-4{
+    margin-left: 12%;
+}
+
+.logo-section{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.footer-input input{
+    width: 250px;
+
+}
+
+#Message1{
+    width: 250px;
+
+}
+
+.nav-menu ul li a{
+    color: white;
+}
+
+.bg1 h6,.bg2 h6,.bg3 h6{
+    font-size: 24px;
+} 
+
+.bg1 h4,.bg2 h4,.bg3 h4{
+    font-size: 40px;
+}
+
+
+}
